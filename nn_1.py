@@ -54,7 +54,7 @@ class NeuralNetwork():
 		print "layer3 weights"
 		print self.layer3.synaptic_weights
 
-def main():
+if __name__ == "main":
 	
 	random.seed(1)
 
@@ -75,6 +75,3 @@ def main():
 
 	output = nn.learn(array([1,1,0]))
 	print output
-
-if __name__ == "main":
-	main()
